@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="logo" onclick="window.location.href='index.html';">
+      <img src="img/company-icon.png" alt="Bun Bun Bake Shop" height="40">
+    </h1>
+
+    <ul class="nav">
+      <li class="navlink"><a href="#">About</a></li>
+      <li class="navlink"><a href="menu.html">Menu</a></li>
+      <li class="navlink"><a href="cart.html" id="cartNavItem">Cart</a></li>
+    </ul>
+  </header>
+
+  <div class="items">
+    <div class="items-bar">
+      <span class="breadcrumb">
+        <a class="breadcrumb" href="">Everything</a> / <a class="breadcrumb" href="menu.html">Cinnamon Rolls</a> / <a class="breadcrumb" href="">Pumpkin Spice</a>
+        <!-- Everything / Cinnamon Rolls -->
+      </span>
+      <br>
+      <span class="items-type">
+        Pumkin Spice Cinnamon Roll
+      </span>
+    </div>
+
+    <div class="food-about">
+      <div class="food-options">
+        <img class="food-img" src="img/product-page/pumpkinspice.png" alt="Pumpkin Spice Cinnamon Roll">
+
+        <form class="food-select" action="">
+          <div class="select-dropdown">
+            <label for="packsize">Amount: </label>
+            <select name="packsize" id="amt">
+              <option value="1" selected>1</option>
+              <option value="3">3</option>
+              <option value="6">6</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="select-dropdown">
+            <label for="glazeselect">Glazing: </label>
+            <select name="glazeselect" id="glz" required>
+              <option value="" selected>None</option>
+              <option value="sugarmilk">Sugar-milk</option>
+              <option value="vanilla">Vanilla-milk</option>
+              <option value="chocolate">Double Chocolate</option>
+            </select>
+          </div>
+          <br><br>
+        </form>
+
+        <div class="price">$3.99</div>
+
+        <!-- <button class="cart-btn" onclick="window.location.href='';"> -->
+        <button class="cart-btn">
+          Add to Cart
+        </button>
+
+        <br>
+        <br><br><br>
+
+        <button class="wish-btn">
+          Add to Wishlist
+        </button>
+
+      </div>
+      <div class="food-descr">
+        <div class="descr-box">
+          <span class="descr-h1">Description</span>
+          <span class="descr-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </span>
+          <span class="descr-h1">Allergens</span>
+          <span class="descr-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </span>
+          <span class="descr-h1">Nutrition Facts</span>
+          <span class="descr-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- <div class="w3-content w3-display-container" style="max-width:800px">
+    <img class="mySlides" src="https://www.w3schools.com/w3css/img_snowtops.jpg" style="width:100%">
+    <img class="mySlides" src="https://www.w3schools.com/w3css/img_lights.jpg" style="width:100%">
+    <img class="mySlides" src="https://www.w3schools.com/w3css/img_mountains.jpg" style="width:100%">
+
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    </div>
+  </div> -->
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.js" defer></script>
+  <script defer>
+
+  </script>
+
+</head>
+
+<body>
+
+  <header>
+    <h1 class="logo" onclick="window.location.href='index.html';">
+      <img src="img/company-icon.png" alt="Bun Bun Bake Shop" height="40">
+    </h1>
+
+    <ul class="nav">
+      <li class="navlink"><a href="#">About</a></li>
+      <li class="navlink"><a href="menu.html">Menu</a></li>
+      <li class="navlink"><a href="cart.html" id="cartNavItem">Cart</a></li>
+    </ul>
+  </header>
+
+  <div class="items">
+    <div class="items-bar">
+      <span class="breadcrumb">
+        <!-- <a class="breadcrumb" href="">Everything</a>  -->
+        Cart&nbsp;&nbsp;&nbsp;
+        <a class="clearbtn" href="" onclick="clearCart(); updateCartLabel();" >Clear</a>
+        <!-- Everything / Cinnamon Rolls -->
+      </span>
+      <br>
+      <span class="items-type">
+        get ready for flavor town
+      </span>
+    </div>
+
+
+
+
+    <div class="food-about">
+      <div class="cart-items">
+        <!-- <div class="added-item">
+          <div class="image-cropper">
+            <img class="added-img" src="img/product-page/original.png" alt="Pumpkin Spice Cinnamon Roll">
+          </div>
+          <div class="added-information">
+            <div class="added-title">
+              Pumkin Spice Cinnamon Roll
+            </div>
+            <div class="added-misc">
+              x1, None
+            </div>
+            <div class="added-controls">
+              <a href="#">Remove</a>
+              <a href="#">Duplicate</a>
+              <a href="#">Save for Later</a>
+            </div>
+          </div>
+          <div class="added-price">
+            $3.99
+          </div>
+        </div> -->
+
+
+        <!-- <div class="added-item">
+          <div class="image-cropper">
+            <img class="added-img" src="img/product-page/original.png" alt="Pumpkin Spice Cinnamon Roll">
+          </div>
+          <div class="added-information">
+            <div class="added-title">
+              Pumkin Spice Cinnamon Roll
+            </div>
+            <div class="added-misc">
+              x1, None
+            </div>
+            <div class="added-controls">
+              <a href="#">Remove</a>
+              <a href="#">Duplicate</a>
+              <a href="#">Save for Later</a>
+            </div>
+          </div>
+          <div class="added-price">
+            $3.99
+          </div>
+        </div> -->
+
+      </div>
+      <div class="cart-info">
+        <div class="descr-box">
+          <span class="descr-h1">
+            Subtotal
+            <span id="cart-subtotal-label">
+              (
+              <span id="cart-count">
+                0
+              </span>
+              )
+            </span>
+          </span>
+          <span class="cart-total">
+            $0.00
+          </span>
+          <button class="checkout-btn" onclick="window.location.href='';">
+            Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <h1>My 1st First Heading</h1>
+    <p>My first paragraph.</p>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p> -->
+
+</body>
+
+</html>

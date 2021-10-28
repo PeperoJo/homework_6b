@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.js" defer></script>
+
+  <script>
+    //GLOBAL CART WHILE HTML IS OPEN
+    // var cartArray = [];
+    localStorage.setItem("cartArray", JSON.stringify(cartArray));
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="logo" onclick="window.location.href='index.html';">
+      <img src="img/company-icon.png" alt="Bun Bun Bake Shop" height="40">
+    </h1>
+
+    <ul class="nav">
+      <li class="navlink"><a href="#">About</a></li>
+      <li class="navlink"><a href="menu.html">Menu</a></li>
+      <li class="navlink"><a href="cart.html" id="cartNavItem">Cart</a></li>
+    </ul>
+  </header>
+
+  <div class="splash">
+    <div class="splash-info">
+      <span class="splash-h1">
+        Autumn Cravings..
+      </span>
+      <br>
+      <span class="splash-body">
+        Get your seasonal favorite Pumkin Spice Cinnamon Rolls!
+      </span>
+    </div>
+    <button class="splash-btn" onclick="window.location.href='pumpkinspice.html';">
+      Learn More
+    </button>
+  </div>
+
+</body>
+
+</html>

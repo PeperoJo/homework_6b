@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="logo" onclick="window.location.href='index.html';">
+      <img src="img/company-icon.png" alt="Bun Bun Bake Shop" height="40">
+    </h1>
+
+    <ul class="nav">
+      <li class="navlink"><a href="#">About</a></li>
+      <li class="navlink"><a href="menu.html">Menu</a></li>
+      <li class="navlink"><a href="cart.html" id="cartNavItem">Cart</a></li>
+    </ul>
+  </header>
+
+  <div class="items">
+    <div class="items-bar">
+      <span class="breadcrumb">
+        <a class="breadcrumb" href="">Everything</a> / <a class="breadcrumb" href="menu.html">Cinnamon Rolls</a> / <a class="breadcrumb" href="">Original</a>
+        <!-- Everything / Cinnamon Rolls -->
+      </span>
+      <br>
+      <span class="items-type">
+        Original Cinnamon Roll
+      </span>
+    </div>
+
+    <div class="food-about">
+      <div class="food-options">
+        <img src="img/product-page/original.png" alt="Pumpkin Spice Cinnamon Roll" width="100%">
+
+        <form class="food-select" action="">
+          <label for="packsize">Amount: </label>
+          <select name="packsize" id="amt">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="12">12</option>
+          </select>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="packsize">Glazing: </label>
+          <select name="packsize" id="glz">
+            <option value="1">None</option>
+            <option value="3">Sugar-milk</option>
+            <option value="6">Vanilla-milk</option>
+            <option value="12">Double Chocolate</option>
+          </select>
+          <br><br>
+        </form>
+
+        <div class="price">
+          $3.99
+        </div>
+
+        <button class="cart-btn" onclick="window.location.href='';">
+          Add to Cart
+        </button>
+
+      </div>
+      <div class="food-descr">
+        <div class="descr-box">
+          <span class="descr-h1">Description</span>
+          <span class="descr-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </span>
+          <span class="descr-h1">Allergens</span>
+          <span class="descr-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </span>
+          <span class="descr-h1">Nutrition Facts</span>
+          <span class="descr-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <h1>My 1st First Heading</h1>
+    <p>My first paragraph.</p>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p><h1>My First Heading</h1>
+    <p>My first paragraph.</p> -->
+
+</body>
+
+</html>
