@@ -1,6 +1,6 @@
 # homework_6b
 
-##Extra Credit:
+## Extra Credit:
 * “wishlist” functionality (max 3pts)
   * users can add products to their wishlist 
   * and view their wishlist (on the shopping cart page)
